@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-family: "Questrial", sans-serif;
+  overflow-x: hidden;
+}
+.head,
+.hero {
+  background: linear-gradient(to right, rgb(255, 65, 108), rgb(255, 75, 43));
+}
+
+header {
+  display: flex;
+  background: rgba(0, 0, 0, 0.07);
+}
+header .fas,
+h6 {
+  color: #fff;
+  font-size: 1.5em;
+  margin: 2% 0.5%;
+}
+header ul {
+  margin-left: 15%;
+  margin-top: 2%;
+}
+header ul li {
+  display: inline;
+  margin: 2em;
+}
+header ul li a {
+  text-decoration: none;
+  font-size: 1.4em;
+  color: #fff;
+  position: relative;
+  background: none;
+  z-index: 1;
+  padding: 0 0.5em;
+}
+header ul li a:hover {
+  color: rgb(255, 75, 43);
+}
+header ul li a::after {
+  content: "";
+  position: absolute;
+  top: -30%;
+  right: 0%;
+  height: 1.5em;
+  width: 0%;
+  background: #fff;
+  transition: 0.5s linear;
+  color: #000;
+  z-index: -1;
+  border-radius: 5px;
+}
+header ul li a:hover::after {
+  width: 100%;
+}
+.hero {
+  height: 10%;
+}
+.hero img {
+  height: 80%;
+  /* margin-left: 10%; */
+  margin-bottom: 20%;
+}
+.herotext {
+  text-align: center;
+  margin-top: 15%;
+  color: #fff;
+}
+
+.herotext h1 {
+  font-size: 3em;
+  font-weight: 600;
+}
+.herobtn {
+  padding: 0.5em 2em;
+  border: none;
+  border-radius: 25px;
+  margin-bottom: 5%;
+}
+.second {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.second img {
+  height: 30em;
+  width: 100%;
+}
+.overlap {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+  padding: 10% 5%;
+  background: #fff;
+  width: 100%;
+  height: 70%;
+  margin-top: 10%;
+  margin-left: -10%;
+}
+.imgsec {
+  margin-left: 5%;
+}
+
+.thirdsection {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/assets/pexels-photo-452738.jpeg);
+  background-position-y: 40%;
+  background-size: cover;
+  position: relative;
+}
+
+.thirdsection h1 {
+  text-align: center;
+  padding-top: 10%;
+  color: #fff;
+}
+
+.thirdsection p {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 10%;
+}
+.rowmar {
+  margin-left: 15%;
+}
+.one {
+  text-align: center;
+  /* width: 20%; */
+  margin: 0% 2%;
+  margin-top: -10%;
+  box-shadow: 0 15px 40px orangered;
+  margin-bottom: 10%;
+}
+
+.one h1 {
+  font-size: 5em;
+  color: orangered;
+}
+.card {
+  margin-bottom: 12%;
+}
+
+.sectionfour {
+  text-align: center;
+  padding: 3em 0;
+}
+.cardone {
+  padding: 0%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.pdf {
+  text-align: center;
+  background: rgb(220, 233, 238);
+  padding: 0.8em 0;
+}
+.cardone p {
+  text-align: center;
+  color: #000;
+  padding: 2em 0;
+}
+.rate {
+  background: rgb(220, 233, 238);
+  border-radius: 100px 100px 0 0;
+}
+.cardone h1 {
+  text-align: center;
+  font-size: 4em;
+  padding-top: 1em;
+}
+
+.cardone button {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1.5em;
+  margin: 0.5em 5.5em;
+  border-radius: 25px;
+}
+
+.sixth {
+  text-align: center;
+  padding: 2em 0;
+  background: linear-gradient(to right, rgb(255, 65, 108), rgb(255, 75, 43));
+  color: #fff;
+}
+
+.sixth p {
+  padding: 0 2em;
+  text-align: center;
+}
+
+.sixth button {
+  border: none;
+  padding: 0.5em 2em;
+  border-radius: 10px;
+}
+.fas {
+  font-size: 1em;
+}
+.seven {
+  /* background: linear-gradient(to right, rgb(255, 65, 108), rgb(255, 75, 43));
+  padding: 2em 0; */
+  margin-bottom: 5%;
+}
+.cardtwo {
+  box-shadow: 0 10px 20px rgba(90, 85, 85, 0.7);
+  height: fit-content;
+  padding: 2em;
+  border-radius: 10px;
+  background: #fff;
+}
+.seven img {
+  height: 5em;
+  width: 80%;
+  margin-bottom: 2em;
+  margin-left: 10%;
+  border-radius: 100px;
+}
+.seven h3,
+h5 {
+  text-align: center;
+}
+.seven p {
+  text-align: justify;
+}
+
+.last {
+  background: black;
+  color: #fff;
+}
+.last p {
+  color: darkgray;
+}
+.fab {
+  color: rgb(255, 75, 43);
+}
+input {
+  background: darkgray;
+  border: none;
+  text-indent: 5px;
+}
+input::placeholder {
+  color: #fff;
+}
+.last button {
+  padding: 0 4px;
+  border: none;
+  background: rgb(255, 75, 43);
+}
